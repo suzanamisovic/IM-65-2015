@@ -134,7 +134,7 @@ public class PnlDrawing extends JPanel implements MouseListener {
 				}
 			}
 			Collections.reverse(shapesArray);
-			System.out.println(shapesArray);
+			System.out.println("Selektovano: " + shapesArray);
 			break;
 
 		}
