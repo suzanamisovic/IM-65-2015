@@ -48,10 +48,10 @@ public class Donut extends Circle {
 		for (Shape shape : PnlDrawing.shapesArray) {
 			if (shape.isSelected()) {
 				String[] split = shape.toString().split(" ");
-				drwdondlg.getTxtXCoord().setText(split[2]);
-				drwdondlg.getTxtYCoord().setText(split[4]);
-				drwdondlg.getTxtSP().setText(split[7]);
-				drwdondlg.getTxtUP().setText(split[12]);
+				drwdondlg.getTxtXCoord().setText(split[3]);
+				drwdondlg.getTxtYCoord().setText(split[5]);
+				drwdondlg.getTxtSP().setText(split[9]);
+				drwdondlg.getTxtUP().setText(split[14]);
 			}
 		}
 		drwdondlg.setVisible(true);

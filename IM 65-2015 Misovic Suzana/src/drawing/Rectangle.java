@@ -62,10 +62,10 @@ public class Rectangle extends Shape {
 		for (Shape shape : PnlDrawing.shapesArray) {
 			if (shape.isSelected()) {
 				String[] split = shape.toString().split(" ");
-				drwrecdlg.getTxtXCoord().setText(split[2]);
-				drwrecdlg.getTxtYCoord().setText(split[6]);
-				drwrecdlg.getTxtSirina().setText(split[9]);
-				drwrecdlg.getTxtVisina().setText(split[12]);
+				drwrecdlg.getTxtXCoord().setText(split[3]);
+				drwrecdlg.getTxtYCoord().setText(split[7]);
+				drwrecdlg.getTxtSirina().setText(split[10]);
+				drwrecdlg.getTxtVisina().setText(split[13]);
 			}
 		}
 		drwrecdlg.setVisible(true);
@@ -105,8 +105,8 @@ public class Rectangle extends Shape {
 	}
 
 	public String toString() {
-		return "( X koordinata: " + getUlp().getX() + ", Y koordinata: " + getUlp().getY() + ", sirina: " + getWidth()
-				+ ", visina: " + getHeight() + " ) " + isSelected();
+		return "( X koordinata: " + getUlp().getX() + " , Y koordinata: " + getUlp().getY() + " , sirina: " + getWidth()
+				+ " , visina: " + getHeight() + " ) " + isSelected();
 	}
 
 }

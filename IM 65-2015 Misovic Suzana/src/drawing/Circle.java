@@ -58,9 +58,9 @@ public class Circle extends Shape {
 		for (Shape shape : PnlDrawing.shapesArray) {
 			if (shape.isSelected()) {
 				String[] split = shape.toString().split(" ");
-				drwcirdlg.getTxtXCoord().setText(split[2]);
-				drwcirdlg.getTxtYCoord().setText(split[4]);
-				drwcirdlg.getTxtRadius().setText(split[7]);
+				drwcirdlg.getTxtXCoord().setText(split[3]);
+				drwcirdlg.getTxtYCoord().setText(split[5]);
+				drwcirdlg.getTxtRadius().setText(split[9]);
 
 			}
 		}

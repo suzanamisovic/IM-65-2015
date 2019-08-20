@@ -56,10 +56,10 @@ public class Line extends Shape {
 		for (Shape shape : PnlDrawing.shapesArray) {
 			if (shape.isSelected()) {
 				String[] split = shape.toString().split(" ");
-				drwlindlg.getTxtXStart().setText(split[1]);
-				drwlindlg.getTxtYStart().setText(split[3]);
-				drwlindlg.getTxtXEnd().setText(split[6]);
-				drwlindlg.getTxtYEnd().setText(split[8]);
+				drwlindlg.getTxtXStart().setText(split[2]);
+				drwlindlg.getTxtYStart().setText(split[4]);
+				drwlindlg.getTxtXEnd().setText(split[8]);
+				drwlindlg.getTxtYEnd().setText(split[10]);
 			}
 		}
 		drwlindlg.setVisible(true);
